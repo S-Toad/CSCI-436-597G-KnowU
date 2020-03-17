@@ -38,10 +38,11 @@ Our application is written within React Native, allowing for maximal portability
 - Provide the link of your code repository (e.g., GitHub)
 ```
 
-![](images/journal.jpg | width=400)
-![](images/mood_graph.jpg | width=400)
-![](images/mood_survey.jpg | width=400)
-![](images/resources.jpg | width=400)
+<img src="images/journal.jpg" width=300>
+<img src="images/mood_graph.jpg" width=300>
+<img src="images/mood_survey.jpg" width=300>
+<img src="images/resources.jpg" width=300>
+
 
 ## Video
 
@@ -49,7 +50,7 @@ Our application is written within React Native, allowing for maximal portability
 
 
 # Developers
-Morgan Stimpson - stimpsm@wwu.edu
-Selome Zerai - zerais@wwu.edu
-Alex Ayala - ayalaa2@wwu.edu
-Justin Hanson - hanson36@wwu.edu
+Morgan Stimpson - stimpsm@wwu.edu  
+Selome Zerai - zerais@wwu.edu  
+Alex Ayala - ayalaa2@wwu.edu  
+Justin Hanson - hanson36@wwu.edu  
