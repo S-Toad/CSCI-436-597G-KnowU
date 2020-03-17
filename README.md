@@ -38,13 +38,8 @@ Our application is written within React Native, allowing for maximal portability
 - Provide the link of your code repository (e.g., GitHub)
 ```
 
-![](journal.jpg)
-
-![](mood_graph.jpg)
-
-![](mood_survey.jpg)
-
-![](resources.jpg)
+![](journal.png) ![](mood_graph.png)
+![](mood_survey.png) ![](resources.png)
 
 
 ## Video
