@@ -38,10 +38,13 @@ Our application is written within React Native, allowing for maximal portability
 - Provide the link of your code repository (e.g., GitHub)
 ```
 
-<img src="images/journal.jpg" width=300>
-<img src="images/mood_graph.jpg" width=300>
-<img src="images/mood_survey.jpg" width=300>
-<img src="images/resources.jpg" width=300>
+<img src="journal.jpg" width=300/>
+
+<img src="mood_graph.jpg" width=300/>
+
+<img src="mood_survey.jpg" width=300/>
+
+<img src="resources.jpg" width=300/>
 
 
 ## Video
