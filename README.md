@@ -27,8 +27,11 @@ Our application is written within React Native, allowing for maximal portability
 
 ```
 - Explain your systematic literature review. How many papers did you read? Write a summary of your findings. Give the pictures of your group prototype
+For this project we went through and read 12+ pieces of literature to get our heads around this project we were working on and how to best address this issue we were noticing. In short we were noticing that social media was having effects on peoples moods around the world. Their moods were beign affective possitively and negatively and that is what we wanted to study with our application.
 - Explain your system analysis. How many systems did you analyze? Write a summary of your findings. Give the pictures of your updated group prototype
+As a group we studied 8 systems and how they tackled social media and mental health tracking. We found that their are a lot of mental health applications that are avialable to people but not many that were going after wokring with people to help them understand what was going on while they were on social media. 
 - Explain your user study. How many interviews did you conduct? Write a summary of your findings. Give the pictures of your updated group prototype
+We conducted 4 interviews as a group. We found that our initial design of our project to be far to invasive. We had invisioned an application that would trace what a user was doing online and summaries what was going on in their online profiles and friends of their profiles. This led us to changing our application completely to adress this issue, so in turn we made it so that our goal was to just track how long someone was on an application and have them take a survey. Once that was done, we then would give them a genralized graph of their mood and the amount of time spent on an app.
 ```
 
 # Final Product
