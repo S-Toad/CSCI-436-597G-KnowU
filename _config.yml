@@ -1,3 +1,12 @@
 theme: jekyll-theme-cayman
+title: knowU
+tab_title: knowU
+logo: ./images/icon.png 
+description: CSCI 436/597G Project
+show_downloads: true
 github:
-  is_project_page: false
+  is_project_page: true
+  repository_url: https://github.com/S-Toad/CSCI-436-597G-KnowU/tree/master/src
+  tar_url: https://github.com/S-Toad/CSCI-436-597G-KnowU/raw/master/resources/know_u_v1_0.tar.gz
+  zip_url: https://github.com/S-Toad/CSCI-436-597G-KnowU/raw/master/resources/know_u_v1_0.zip
+exclude: ['src', 'resources']

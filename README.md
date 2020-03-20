@@ -1,13 +1,17 @@
 
+
+{% include content_styles.html %}
+
 # What's the Problem?
 
-A large portion of our global population are affected by one or more mental disorders. If we can support those who are in distress, we may move towards providing professional care and resources and, hopefully, ultimately reduce the suicide rate and improve quality of life. This project is centered on the third SDG goals: *Good Health and Well-Being*.
+A large portion of our global population are affected by one or more mental disorders. If we can support those who are in distress, we may move towards providing professional care and resources and, hopefully, ultimately reduce the suicide rate and improve quality of life. This project is centered on the third SDG goals: **_Good Health and Well-Being_**.
 
 ## Statistics
 According to the [World Health Organization](https://www.who.int/):
 - Depression affects over 264 million people
 - 800,000 people die from suicide annually
 - Suicide is the second leading cause of death for young adults
+- Lowered suicide rates is listed as an [indicator of target 3.4](https://sustainabledevelopment.un.org/sdg3#targets) of the Sustainable Development Goals
 
 ## Our Solution
 
@@ -20,38 +24,76 @@ We may find that on days a user goes to classes, they experience the most anxiet
 - Customizable -- Questionnaire is customizable to be tailored to the user
 - Serverless -- Your data stays completely local and secured
 
-### Technology
-Our application is written within React Native, allowing for maximal portability between devices. 
+### Technology & Libraries
+
+- [React Native](https://reactnative.dev/) &mdash; Maximal portability between devices
+- [Expo](https://expo.io/) &mdash; Open-source platform for creating React Native apps
+- [regression-js](https://github.com/Tom-Alexander/regression-js) &mdash; Open-source regression library for data analysis 
 
 # Research Methodology
 
-```
-- Explain your systematic literature review. How many papers did you read? Write a summary of your findings. Give the pictures of your group prototype
-For this project we went through and read 12+ pieces of literature to get our heads around this project we were working on and how to best address this issue we were noticing. In short we were noticing that social media was having effects on peoples moods around the world. Their moods were beign affective possitively and negatively and that is what we wanted to study with our application.
-- Explain your system analysis. How many systems did you analyze? Write a summary of your findings. Give the pictures of your updated group prototype
-As a group we studied 8 systems and how they tackled social media and mental health tracking. We found that their are a lot of mental health applications that are avialable to people but not many that were going after wokring with people to help them understand what was going on while they were on social media. 
-- Explain your user study. How many interviews did you conduct? Write a summary of your findings. Give the pictures of your updated group prototype
-We conducted 4 interviews as a group. We found that our initial design of our project to be far to invasive. We had invisioned an application that would trace what a user was doing online and summaries what was going on in their online profiles and friends of their profiles. This led us to changing our application completely to adress this issue, so in turn we made it so that our goal was to just track how long someone was on an application and have them take a survey. Once that was done, we then would give them a genralized graph of their mood and the amount of time spent on an app.
-```
+
+## Literature Review
+For this project we went through and read 12+ pieces of literature to get our heads around this project we were working on and how to best address this issue we were noticing. We noticed that social media was indicative of peoples moods. Certain factors would affect moods both positively and negatively; we wanted to explore that more with our application.
+
+## System Review
+As a group we studied 8 systems and how they tackled social media and mental health tracking. We found many mental health applications that are available but few that approached the solution from a ICT for development perspective. We wanted to work with people to help them understand how social media and other environmental factors affected their mood. 
+
+## User Study
+We conducted 4 interviews as a group. We found that our initial design of our project to be far too invasive. We had envisioned an application that would trace what a user was doing online indicate possible sources positively or negatively impacting their mood. Many users felt uncomfortable with this idea and was not comfortable using an app with this functionality. This led us to changing our application drastically to address this issue. We decided to set our goal to track how long someone was on an application and have them take a survey. Once that was done, we then would give them a generalized graph of their mood and the amount of time spent on an app.
+
+## Design Prototypes
+
+We generated our design prototype with [Marvel](https://marvelapp.com).
+
+### Initial Design
+
+After our literature review, we found research in the field of nlp to analyze and predict user's moods. We initially designed our application to be a service wheres use can sign up for monitoring.
+
+{% include single_image.html src="design_1.png" %}
+
+### Second Design
+
+After our system analysis, we found that most applications available were mobile apps. We felt it was unreasonable to ask users to use a website when an app was much simpler to use. Thus we transitioned our designs to be a mobile app.
+
+{% include double_image.html left="design_2_1.png" right="design_2_2.png" %}
+
+### Final Design
+
+After our user study, we found that our users did not like our color scheme. We updated it to be light and calming. Our users felt that the initial page was cluttered, so we started to focus on condensing the information shown to the user. Lastly, our users did not want to spend a long time completing the questionnaire. So we tackled this problem by adjusting the questionnaire to be much quicker to complete.
+
+{% include double_image.html left="design_main.png" right="design_check_in.png" %}
+{% include double_image.html left="design_analytics.png" right="design_resources.png" %}
 
 # Final Product
-```
-- Discuss in detail the final prototype (every feature); Give pictures as needed.
-- Discuss all the technologies/software/API you used.
-- Provide the link of your code repository (e.g., GitHub)
-```
 
-![](journal.png) ![](mood_graph.png)
-![](mood_survey.png) ![](resources.png)
+## Images
 
+{% include double_image.html left="journal.png" right="mood_graph.png" %}
+{% include double_image.html left="mood_survey.png" right="resources.png" %}
 
 ## Video
 
+
+{% include youtube_player.html id="J9TKs1XdOko" %}
+
 # Future Works
+
+There's several features we planned to have in our application:
+- More analyses options
+- Automatically discovering trends
+- Customizable resources
+- Customizable questionnaire
+- Tracking app usage
+
+This project may continue by first tackling those features. Further work can be explored by future user studies, determining additional features that users would appreciate in a mental health application.
 
 
 # Developers
-Morgan Stimpson - stimpsm@wwu.edu  
-Selome Zerai - zerais@wwu.edu  
-Alex Ayala - ayalaa2@wwu.edu  
-Justin Hanson - hanson36@wwu.edu  
+
+This project developed in CSCI 436/597G, Winter 2020, instructed by [Dr. Shameem Ahmed](https://facultyweb.cs.wwu.edu/~ahmeds/)
+
+Alex Ayala &mdash; <ayalaa2@wwu.edu>  
+Selome Zerai &mdash; <zerais@wwu.edu>  
+Justin Hanson &mdash; <hanson36@wwu.edu>  
+Morgan Stimpson &mdash; <stimpsm@wwu.edu>  
